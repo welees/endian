@@ -14,8 +14,13 @@ The example:
 	
   Here we can get the result:
   INT32 Raw Data    : 12345678H
+  
   LEINT32 Raw Data  : 12345678H, LEINT32 Output    : 12345678H
+  
   BEINT32 Raw Data  : 78563412H, BEINT32 Output    : 12345678H
+  
   UINT32 Raw Data   : 12345678H
+  
   LEUINT32 Raw Data : 12345678H, LEUINT32 Output   : 12345678H
+  
   BEUINT32 Raw Data : 78563412H, BEUINT32 Output   : 12345678H
