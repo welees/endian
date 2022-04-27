@@ -13,6 +13,7 @@ The example:
 	printf("UINT32 Raw Data   : %08XH\nLEUINT32 Raw Data : %08XH, LEUINT32 Output   : %08XH\nBEUINT32 Raw Data : %08XH, BEUINT32 Output   : %08XH\n",u32,*((PUINT32)&lu32),lu32.Get(),*((PUINT32)&bu32),(UINT32)bu32);
 	
   Here we can get the result:
+  
   INT32 Raw Data    : 12345678H
   
   LEINT32 Raw Data  : 12345678H, LEINT32 Output    : 12345678H
