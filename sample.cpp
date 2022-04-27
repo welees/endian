@@ -1,5 +1,20 @@
 #include <stdio.h>
 
+/*
+Endian is a cross-platform, general-purpose c++ little endian/big endian solution that eliminates the need for users to explicitly specify the conversion mode each time they access different endian data.
+Once you declare a variable using a type in Endian, you don't need to specify any explicit conversion for it, just use it as if it were a standard type supported by the CPU.
+
+Example:
+Declare :
+LEUINT32 leuData1;
+BEUINT32 beuData2;
+
+Assignment:
+leuData=0x12345678;
+UINT16 uData=0x55aa;
+beuData2=uData;
+
+*/
 
 #if defined(WIN32)||defined(_WIN32)
 typedef char            INT8,*PINT8;
@@ -28,7 +43,6 @@ typedef unsigned long long UINT64,*PUINT64;
 
 #endif
 
-#define _CPLUSPLUS
 #define _LITTLE_ENDIAN
 
 #include "Endian.h"
