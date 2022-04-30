@@ -2,7 +2,8 @@
 Endian is a cross-platform, general-purpose c++ little endian/big endian solution that eliminates the need for users to explicitly specify the conversion mode each time they access different endian data.  Once you declare a variable using a type in Endian, you don't need to specify any explicit conversion for it, just use it as if it were a standard type supported by the CPU.
 
 The example:
-  INT32    i32=0x12345678;
+
+	INT32    i32=0x12345678;
 	LEINT32  l32=i32;
 	BEINT32  b32=i32;
 	UINT32   u32=0x12345678;
